@@ -1,0 +1,54 @@
+@import "main.css";
+
+.form {
+    background-color: white;
+	margin-top: 20px;
+	margin-left: 30%;
+	margin-right: 30%;
+	border: 1px solid rgb(221, 221, 221);
+    border-color: #d3d3d3;
+}
+.card-title {
+	font-size: 23px;
+}
+.inf {
+	margin: 0%;
+}
+strong {
+	margin-top: 0%;
+	margin-left: 20px;
+}
+.about-user{
+	margin-left: 14px;
+	margin-bottom: 10px;
+	font-size: 19px;
+
+}
+.profile-img-user {
+	border-radius: 100px;
+	width: 100px;
+	height: 100px;
+	margin-right: 10px;
+	border: 1px solid rgb(221, 221, 221);
+	object-fit: cover;
+	margin-bottom: 10px;
+}
+#subb {
+	width: auto;
+	margin-left: 17px;
+	height: 40px;
+	right: 0%;
+}
+.form-user-card{
+	background-color: white;
+	width: 50%;
+	position: relative;
+}
+.hr {
+	width: 100%;
+	margin-left: 0%;
+	margin-bottom: 0%;
+}
+.all {
+	padding: 20px 40px 0px 40px;
+}

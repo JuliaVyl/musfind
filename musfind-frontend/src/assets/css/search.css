@@ -1,0 +1,39 @@
+
+@import 'login.css';
+
+span.logo {
+    font-family: 'Mali', cursive;
+    font-size: 25px;
+}
+.search-form {
+    background-color: white;
+    padding: 35px 50px 40px 50px;
+    margin-top: 8%;
+	border: 1px solid rgb(221, 221, 221);
+    border-color: #d3d3d3;
+}
+#button-search {
+	display:block;
+	position: relative;
+	margin:0 auto;
+}
+#button-change {
+	display:block;
+	position: relative;
+	margin:0 auto;
+}
+#nickname {
+	margin-bottom: 30px;
+}
+input {
+	margin-bottom: 10px;
+}
+select {
+	margin-top: -10px;
+}
+.wide-search {
+    text-align: center;
+}
+.back-to-edit {
+	text-align: center;
+}

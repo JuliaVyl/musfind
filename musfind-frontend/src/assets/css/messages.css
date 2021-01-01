@@ -1,0 +1,70 @@
+@import "main.css";
+
+.message-container {
+	width: 50%;
+}
+
+span.logo {
+    font-family: 'Mali', cursive;
+    font-size: 25px;
+}
+.history {
+    background-color: white;
+    margin-top: 23px;
+    border: 1px solid rgb(221, 221, 221);
+    overflow: hidden;
+    width: 100%;  
+ }
+.message-header {
+	border-bottom: 1px solid rgb(221, 221, 221); 
+	padding: 5px 0px 5px 0px;
+}
+.messages {
+    height: 100%;
+    overflow-y: auto;
+	padding-top: 0;
+}
+
+p.title-header {
+	text-align: center;
+	border-bottom: 1px solid rgb(221, 221, 221); 
+	padding: 10px 0px 10px 0px;
+	margin-bottom: 0;
+}
+.message {
+	border-bottom: 1px solid rgb(221, 221, 221); 
+	padding-top: 15px;
+	cursor: pointer;
+}
+
+.message:hover {
+	background-color: #f3f3f3;
+}
+
+.profile-image {
+	margin-left: 10px;
+}
+.text {
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: left;
+}
+#message {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.date-text {
+	margin-bottom: -10px;
+}
+#dialog-user {
+	margin-left: -15px;
+}
+.date {
+	margin-right: 15px;
+}
+
+@media screen and (max-width: 1000px) {
+	.message-container {
+		width: 100%;
+	}
+}

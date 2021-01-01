@@ -1,0 +1,65 @@
+@import 'main.css';
+
+.login-form {
+    background-color: white;
+    padding: 35px 50px 40px 50px;
+    margin-top: 8%;
+	border: 1px solid rgb(221, 221, 221);
+    border-color: #d3d3d3;
+}
+h3 {
+    font-family: 'Mali', cursive;
+    font-size: 35px;
+}
+.login-title {
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+.btn {
+    width: auto;
+}
+span.logo {
+    font-family: 'Mali', cursive;
+    font-size: 25px;
+}
+.img-thumbnail {
+    margin-top: 10px;
+    width: 400px;
+    height: 400px;
+}
+.ch-psw {
+    text-align: center;
+    margin-top: 15px;
+}
+.file-field.big .file-path-wrapper {
+    height: 3.2rem; }
+.file-field.big .file-path-wrapper .file-path {
+    height: 3rem; }
+div.custom-file {
+    margin-bottom: 15px;
+}
+.send {
+    width: 100%;
+}
+#change-password {
+    text-align: center;
+}
+select {
+    width: 100%;
+}
+.dropdown.b-dropdown.post-more.btn-group {
+    position: absolute;
+    right: 5%;
+}
+.btn.dropdown-toggle.btn-secondary {
+    background-color:white;
+    border-color: #C9ACF2;
+    color: grey;
+    margin-bottom: -10px;
+}
+.btn.dropdown-toggle.btn-secondary:active {
+    background-color: #C9ACF2;
+    color: white;
+}

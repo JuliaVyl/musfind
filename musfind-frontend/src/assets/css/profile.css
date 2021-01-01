@@ -1,0 +1,203 @@
+@import 'main.css';
+
+span.logo {
+    font-family: 'Mali', cursive;
+    font-size: 25px;
+}
+.img-thumbnail {
+    margin-top: 10px;
+    width: 400px;
+    height: 400px;
+}
+.description-body {
+    background-color: white;
+    margin-top: 23px;
+    border: 1px solid rgb(221, 221, 221);
+    padding: 20px 50px 20px 50px;
+}
+.phone-description {
+    display: none;
+}
+.btn-outline-secondary {
+    border-color: #C9ACF2;
+    width: 125px;
+}
+#button-upload {
+    margin-top: 20px;
+    width: 100px;
+}
+.logout {
+    margin-top: -10px;
+}
+
+.add-friend {
+    margin-left: 15px;
+}
+.btn-outline-secondary:hover {
+    background-color: #C9ACF2;
+}
+.tag{
+    color: black;
+    text-decoration: none;
+    margin-left: 14px;
+}
+.tag:hover {
+    color:#C9ACF2;
+}
+.stat-num {
+    font-weight: bold;
+}
+.nickname {
+    margin-left: 17px;
+}
+#status {
+    margin-left: -15px;
+}
+#edit-prof {
+    margin-bottom: 5px;
+    margin-top: -3px;
+}
+#stat {
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+#upload {
+    width: 100%;
+}
+.prof {
+    margin-left: -17px;
+}
+.tags {
+    margin-left: -17px;
+}
+select {
+    width: 300px;
+}
+hr {
+    color: rgb(221, 221, 221);
+    height: 1px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+}
+.photo-mini {
+    display: none;
+}
+img.round {
+    border-radius: 300px;
+    height: 300px;
+    width: 300px;
+    margin-top: 20px;
+    border: 1px solid rgb(221, 221, 221);
+    position: absolute;
+    object-fit: cover;
+}
+
+.no-posts{
+    text-align: center;
+    margin-top: 10%;
+}
+
+@media only screen and (max-width: 1800px) {
+    img.round {
+        border-radius: 300px;
+        height: 250px;
+        width: 250px;
+        margin-top: 20px;
+        border: 1px solid rgb(221, 221, 221);
+    }
+}
+@media only screen and (max-width: 1500px) {
+    img.round {
+        border-radius: 300px;
+        height: 200px;
+        width: 200px;
+        margin-top: 20px;
+        border: 1px solid rgb(221, 221, 221);
+    }
+}
+@media only screen and (max-width: 1200px) {
+    img.round {
+        display: none;
+    }
+    .phone-description {
+        display: block;
+    }
+    .desktop-description {
+        display: none;
+    }
+    .photo-mini {
+        display: block; 
+        border-radius: 300px;
+        height: 80px;
+        width: 80px;
+        border: 1px solid rgb(221, 221, 221);
+
+    }
+    .phone-logout {
+        margin-top: -45px;
+    }
+    .add-friend-phone {
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+    .add-friend {
+        display: none;
+    }
+}
+@media only screen and (max-width: 710px) {
+    img.round {
+        display: none;
+    }
+    .phone-description {
+        display: block;
+    }
+    .desktop-description {
+        display: none;
+    }
+    .photo-mini {
+        display: block; 
+        border-radius: 300px;
+        height: 80px;
+        width: 80px;
+        border: 1px solid rgb(221, 221, 221);
+
+    }
+    .phone-logout {
+        margin-top: 0px;
+    }
+    hr {
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    img.round {
+        display: none;
+    }
+    .phone-description {
+        display: block;
+    }
+    .desktop-description {
+        display: none;
+    }
+    .photo-mini {
+        display: block; 
+        border-radius: 300px;
+        height: 80px;
+        width: 80px;
+        border: 1px solid rgb(221, 221, 221);
+
+    }
+    .phone-logout {
+        margin-top: -10px;
+    }
+    hr {
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    
+}

@@ -1,0 +1,87 @@
+@import "main.css";
+
+.message-container {
+	width: 35% !important;
+}
+
+span.logo {
+    font-family: 'Mali', cursive;
+    font-size: 25px;
+}
+.history {
+    background-color: white;
+    margin-top: 23px;
+    border: 1px solid rgb(221, 221, 221);
+    overflow: hidden;
+    height: 81vh;
+ }
+.message-header {
+	border-bottom: 1px solid rgb(221, 221, 221); 
+	padding: 5px 0px 5px 0px;
+}
+.back {
+	margin-left: 20px;
+}
+.left {
+	margin-left: -50px;
+}
+.messages-area {
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    overflow-y: auto;
+}
+.profile-image {
+	margin-left: 10px;
+}
+.other-text {
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: left;
+}
+#in-message {
+	margin-left: 20px;
+}
+.date-text {
+	margin-bottom: -10px;
+}
+#dialog-user {
+	margin-left: -15px;
+}
+.who-is-message {
+	position: absolute;
+	right: 46% ;
+}
+.header-of-user {
+	margin-left: 20px;;
+}
+.my-text {
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: right;
+}
+.from-me {
+	margin-left:auto; 
+	margin-right: 40px;
+}
+.my-date-text {
+	margin-right: 20px;
+	margin-bottom: -10px;
+}
+#mymassage {
+	margin-right: 20px;
+}
+.my-date {
+	margin-right: 15px;
+	text-align: right;
+}
+.send-box {
+	width: 100%;
+	margin-top: -1px;
+}
+
+@media screen and (max-width: 900px) {
+	.message-container {
+		width: 100%;
+	}
+}

@@ -1,0 +1,22 @@
+@import 'main.css';
+
+.login-form {
+    background-color: white;
+    padding: 35px 50px 40px 50px;
+    margin-top: 8%;
+	border: 1px solid rgb(221, 221, 221);
+    border-color: #d3d3d3;
+}
+h3 {
+    font-family: 'Mali', cursive;
+    font-size: 35px;
+}
+.login-title {
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+.btn {
+    width: auto;
+}
